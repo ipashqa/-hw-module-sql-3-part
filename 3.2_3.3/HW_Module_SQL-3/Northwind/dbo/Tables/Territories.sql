@@ -5,7 +5,7 @@
 ) ON [PRIMARY]
 GO
 ALTER TABLE Territories
-	ADD CONSTRAINT [FK_Territories_Region] FOREIGN KEY 
+	ADD CONSTRAINT [FK_Territories_Regions] FOREIGN KEY 
 	(
 		[RegionID]
 	) REFERENCES [dbo].[Regions] (

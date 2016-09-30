@@ -10,7 +10,8 @@
 	"Country" nvarchar (15) NULL ,
 	"Phone" nvarchar (24) NULL ,
 	"Fax" nvarchar (24) NULL ,
-	CONSTRAINT "PK_Customers" PRIMARY KEY  CLUSTERED 
+	[AddDate] DATE NULL, 
+    CONSTRAINT "PK_Customers" PRIMARY KEY  CLUSTERED 
 	(
 		"CustomerID"
 	)
